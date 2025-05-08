@@ -9,6 +9,12 @@ To get started, clone the repository and install the dependencies:
    git clone https://github.com/FlorenciaRomano/SAP-App.git
    cd SAP-App
 
+
+2. In the project Install dependencies: : `npm install`:
+
+3. you can run: `npm start`:
+
+
 ## Available Scripts
 In the project Install dependencies: : `npm install`
 In the project directory, you can run: `npm start`
