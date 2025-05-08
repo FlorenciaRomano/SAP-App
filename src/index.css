@@ -5,9 +5,182 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e2e2e2a4;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.mainContent{
+ 
+  height: 7rem !important;
+}
+
+
+.app-container{
+  width: 100%;
+  padding: 0% !important;
+
+}
+
+.ContainerGral{
+  display: flex;
+  
+}
+
+
+li {
+  color: gray!important;
+ font-size: 10px !important;}
+ul {
+  color:black!important;
+ font-size: 11px;
+ margin-top: 2rem;}
+
+ .contentCards{
+display: flex;
+gap: 1rem;
+margin-top: 2rem !important;
+justify-content: center;
+ }
+ 
+ .ContenedorTarjeta{
+  margin-top: 1rem;
+ }
+
+ .CotainerProfile{
+  display: flex;
+  max-width: 600px !important;
+  margin: 1rem auto!;
+ }
+
+ .profile-container{
+  margin-top: 2rem;
+ }
+.profile-container > label, input {
+  color: rgba(68, 68, 68, 0.74);
+}
+
+ form > label{
+  margin-bottom: 0% !important;
+ }
+
+ .tarjetaUsuarios{
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc48;
+  transition: linear all 0.4s;
+  cursor: pointer;  
+   
+ }
+ 
+ .user-list > thead{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.082);
+  color: rgb(102, 101, 101);
+  
+ }
+
+ .user > thead > tr > th{
+  display: flex;
+  gap: 1rem;
+ }
+
+ .user-details-list > li{
+  font-size: 15px !important;
+ }
+ 
+ .formModal12 > label > input{
+   font-size: 10px !important;
+ }
+
+ @media (max-width: 768px) {
+  .user-list > thead {
+      display: none;
+  }
+}
+
+
+ @media (min-width: 320px) {
+
+  .btn-add-user{
+  height: 38px;
+  width: 100%;
+  font-size: 12px !important;
+  
+ 
+  }
+
+
+  .gestionUser{
+     height: 25vh !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: #cccccc48;
+    }
+}
+
+.gestionUser{
+  height: 8rem !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end
+  }
+
+  .gestionUser > div > h2{
+    font-size: 35px;
+  }
+
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr !important; /* Una columna en pantallas pequeñas */
+  }
+}
+
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegúrate de que el modal esté por encima de otros elementos */
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px; /* Ancho máximo para pantallas grandes */
+  width: 100%; /* Asegúrate de que ocupe el 100% del contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 320px) {
+  .modal-content {
+    padding: 10px; /* Reduce el padding en pantallas pequeñas */
+    max-width: 90%; /* Ancho máximo del modal en pantallas pequeñas */
+  }
+
+  
+}
+
+@media (max-width: 1024px) {
+  .mainContent {
+    margin-top: 0% !important;
+  }
+
+  
 }
