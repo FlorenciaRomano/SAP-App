@@ -1,12 +1,27 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link to deployed project
+
+https://sap-qovsuzsic-flor-romano.vercel.app
+
+## Installation
+
+To get started, clone the repository and install the dependencies:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/FlorenciaRomano/SAP-App.git
+   cd SAP-App
+
+
+2. In the project Install dependencies: : `npm install`:
+
+3. you can run: `npm start`:
+
 
 ## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+In the project Install dependencies: : `npm install`
+In the project directory, you can run: `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
