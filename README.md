@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Link to deployed project
+
+https://sap-qovsuzsic-flor-romano.vercel.app
+
 ## Installation
 
 To get started, clone the repository and install the dependencies:
