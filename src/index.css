@@ -116,6 +116,12 @@ justify-content: center;
   }
 
 
+  .user-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
   .gestionUser{
      height: 25vh !important;
     width: 100% !important;
@@ -123,7 +129,7 @@ justify-content: center;
     justify-content: space-evenly;
     align-items: flex-end;
     background-color: #cccccc48;
-    }
+    margin: -5px;}
 }
 
 .gestionUser{
@@ -181,6 +187,5 @@ justify-content: center;
   .mainContent {
     margin-top: 0% !important;
   }
-
   
 }

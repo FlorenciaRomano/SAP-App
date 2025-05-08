@@ -212,7 +212,7 @@ const UserList = () => {
                 <td>{user.email}</td>
                 <td>
                   <span className={`role-badge ${user.role === 'admin' ? 'badge-admin' : 'badge-user'}`}>
-                    {user.role === 'admin' ? 'Administrador' : 'Usuario'}
+                    {user.role === 'admin' ? 'Admin' : 'Usuario'}
                   </span>
                 </td>
                 <td className="user-actions">
@@ -470,8 +470,9 @@ const UserList = () => {
         .gestionUser {
           height: 9rem;
           display: flex;
-          justify-content: space-evenly;
+          justify-content: center;
           align-items: flex-end;
+          gap: 9rem;
         }
         .user-list-container {
           width: 100%;
@@ -686,6 +687,7 @@ const UserList = () => {
         @media (max-width: 480px) {
           .user-list-container {
             padding: 0.5rem;
+            width: 80%;
           }
           .user-list th, .user-list td {
             padding: 0.5rem 0.25rem;
